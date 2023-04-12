@@ -14,4 +14,32 @@
  *= require_self
  */
 
+/* #ask_coach{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} */
+/* #formulaire{
+  width: 300px;
+  height: 70px;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35%;
+  margin-top: 10%;
+} */
 
+.container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 100%;
+  margin-top: 150px;
+}
+
+.content {
+  text-align: center; /* Centrar el texto */
+}
