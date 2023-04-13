@@ -1,3 +1,16 @@
-<%= @answer %>
+<div class="container">
+  <div class="content">
+    <h1>Stupid coaching</h1>
+      <div class="bd-callout bd-callout-warning">
+        <%= @question %>
+        <em>-You</em>
+      </div>
+      <div class="bd-callout bd-callout-warning">
+        <%= @answer %>
+      <em>-Your coach</em>
+      </div>
 
-<%= link_to "Return to ask a question", ask_path%>
+    <div>
+    <%= link_to "Ask a new question", ask_path%></div>
+  </div>
+</div>
